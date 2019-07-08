@@ -1,0 +1,92 @@
+@charset "utf-8";
+
+body {
+    font-family: "Hiragino Kaku Gothic ProN","メイリオ","san-serif"
+}
+
+header {
+    text-align: center;
+}
+.clearfix:after {
+    content:'';
+    display: block;
+    clear: both;
+}
+
+header nav ul {
+    width :950px;
+    margin: 10px auto 10px auto;
+}
+
+header nav ul li {
+    float: left;
+    width: 235px;
+    text-align: center;
+    margin-right :3px;
+    margin-bottom: 10px;
+}
+header nav ul li:last-child {
+    margin-right: 0;
+}
+
+header ul li a {
+    color: white;
+    background-color:#18273D;
+    display: block;
+    text-decoration: none;
+    padding: 10px 0;
+}
+
+header nav ul li a:hover {
+    color: white;
+    text-decoration: none;
+}
+header nav ul li a:hover,
+header nav ul li a:active,
+header nav ul li .current a {
+    background-color: black;
+}
+
+main {
+    width: 950px;
+    margin: 0 auto;
+}
+.maincontent {
+    width: 600px;
+    margin: 0 auto;
+    float: left;
+    margin-top: 20px;
+}
+.sns_wrapper {
+    width: 300px;
+    float: right;
+    margin-top: 20px;
+    margin-left: auto;
+}
+.clearfix:after {
+    content:'';
+    display: block;
+    clear: both;
+}
+
+footer {
+    background-color: #18273D;
+    text-align: center;
+    color: white;
+    padding: 15px;
+    margin-top: 15px;
+}
+footer ul li {
+    display: inline;
+    padding-left: 15px;
+}
+
+footer ul li a {
+    color: white;
+}
+footer ul li a:hover {
+ color : white;
+}
+a:hover {
+    cursor: pointer;
+}
